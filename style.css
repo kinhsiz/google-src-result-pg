@@ -1,0 +1,35 @@
+
+/********************TOPNAV******************/
+.gb_Xe {
+  width: 30px;
+}
+
+#google-img {
+    width: 150px;
+}
+
+#topnav {
+ display: flex;
+ flex-direction: row;
+ background-color: pink;
+}
+/*will place item towards the right end*/
+#topnav .btn-right {
+    margin-left: auto;
+}
+/*input text needs to be created inside div element to leave
+search box inside*/
+.bar {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    background-color: blue;
+    border-radius: 30px;  
+}
+
+.searchBar {
+    width: 500px;
+    height: 47px;
+    border: 1px solid #eaeaea;
+}
+/*****************TOPNAV END******************/
