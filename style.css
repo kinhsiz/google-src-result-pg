@@ -10,10 +10,6 @@
     margin-left: 20px;
 }
 
-/*will place item towards the right end*/
-#topnav .btn-right {
-    margin-left: auto;
-}
 /*input text needs to be created inside div element to leave
 search box inside*/
 .bar {
@@ -46,6 +42,11 @@ search box inside*/
     align-items: center;
     padding: 5px;
 }
+
+/*will place item towards the right end*/
+#topnav .btn-right {
+    margin-left: auto;
+}
 .btn-right {
     display: flex;
     align-items: center;
@@ -76,12 +77,18 @@ search box inside*/
     width: 30%;
     position: relative;
     left: 230px;
+    background-color: pink;
     
 }
 .icon-bar div {
-    background-color: pink;
     display:flex;
     flex-direction: row;
+}
+
+#stgs-tools {
+    margin-left: auto;
+
+    background-color: blue;
     
 }
 /****************ICON BAR END****************/
