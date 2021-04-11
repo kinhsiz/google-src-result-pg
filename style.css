@@ -15,10 +15,12 @@ search box inside*/
 .bar {
     display: flex;
     justify-content: center;
-    width: 620px;
+    width: 720px;
     border-radius: 30px;
     margin-left: 50px;
     border:1px solid #dcdcdc;
+    background-color: transparent;
+    box-shadow: 2px 3px 5px #dcdcdc; /* offset-x | offset-y | blur-radius | color */
 }
 
 .bar:hover{
@@ -30,7 +32,7 @@ search box inside*/
 }
 
 .searchBar {
-    width: 500px;
+    width: 600px;
     height: 47px;
     border: none;
 }
@@ -73,22 +75,31 @@ search box inside*/
 /*****************TOPNAV END******************/
 /****************ICON BAR********************/
 .icon-bar {
-    margin-top: 10px;
-    width: 30%;
+    margin-top: 20px;
+    width: 35%;
     position: relative;
     left: 230px;
-    background-color: pink;
     
 }
 .icon-bar div {
     display:flex;
     flex-direction: row;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 15px;
+    color: #606060;
+}
+.icon-bar .icons {
+    font-size: 14px
 }
 
 #stgs-tools {
     margin-left: auto;
-
-    background-color: blue;
-    
+}
+#stgs-tools span {
+    padding: 0 10px;
 }
 /****************ICON BAR END****************/
+ #line {
+     opacity: .2;
+}
