@@ -103,3 +103,22 @@ search box inside*/
  #line {
      opacity: .2;
 }
+/***************RESULT CONTAINER STARTS**************/
+#result-container {
+    width: 650px;
+    background-color: rgb(149, 149, 241);
+}
+
+#people-ask-box {
+    width: 700px;
+}
+
+#people-ask-box hr {
+    opacity: .3;
+}
+
+#people-ask-box, #result-container {
+    position: relative;
+    left: 230px;
+}
+/***************RESULT CONTAINER ENDS****************/
