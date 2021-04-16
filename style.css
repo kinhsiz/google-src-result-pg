@@ -106,11 +106,34 @@ search box inside*/
 /***************RESULT CONTAINER STARTS**************/
 #result-container {
     width: 650px;
-    background-color: rgb(149, 149, 241);
+}
+
+#result-container .box {
+    margin-bottom: 30px;;
+}
+
+#result-container .box-link {
+    font-size: 22px;
+    text-decoration: none;
 }
 
 #people-ask-box {
     width: 700px;
+    margin-bottom: 30px;
+}
+#people-ask-box h3 {
+    display: flex;
+    align-items: center;
+}
+#people-ask-box h3 span {
+    margin-left: 15px;
+    opacity: .6;
+    font-size: 19px;
+}
+
+#people-ask-box p {
+    font-size: 18px;
+    margin: 12px 0;
 }
 
 #people-ask-box hr {
@@ -120,5 +143,12 @@ search box inside*/
 #people-ask-box, #result-container {
     position: relative;
     left: 230px;
+}
+
+.box span {
+    opacity: .6;
+}
+.box .desc {
+    opacity: .75;
 }
 /***************RESULT CONTAINER ENDS****************/
